@@ -1,0 +1,42 @@
+language: ruby
+
+rvm:
+- 2.1.2
+
+
+script:
+ - bash ./deploy.sh
+
+
+branches:
+  only:
+  - master    
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true 
+  - ENCRYPTION_LABEL:
+
+ 
+sudo: false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
